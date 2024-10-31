@@ -8,7 +8,7 @@
 
 }
 nav{
-    background-color:black;
+    background-color:  rgb(14, 14, 87) ;
     padding: 12px 3px;
     display: flex;
     color: white;
@@ -44,26 +44,30 @@ table, td, tr{
     padding: 5px 13px;
 
 }
-.container{
+.container {
     max-width: 80vw;
-    margin: 23px auto;
+    margin: 20px auto;
 }
+
 h1 , h2 , h3 {
-    margin: 23px 0;
-}
+    margin: 29px 0;
+    color: rgb(14, 14, 87);
+    font-size: 30;
+} 
 .btn{ 
     padding: 8px 17px;
-    background: black;
+    background:  rgb(14, 14, 87);
     font-weight: 900;
     color: white;
     margin: 25px 0;
     border: 2px solid grey;
     border-radius: 8px;
     cursor: pointer;
+    
 }
 .btnsm{
     padding: 8px 10px;
-    background: black;
+    background:  rgb(14, 14, 87);
     font-weight: 900;
     color: white;
     border: 2px solid grey;
@@ -77,6 +81,21 @@ img{
     width: 15px;
     height: 13px;
 }
+label{
+    display: block;
+    padding: 5 px;
+    font-size: 18px;
+    font-weight: 20px;
+    color:  black;
+    box-shadow: 2px 2px 5px
+    rgba(0,0,0,0.2) ;
+    background-color:;
+    
+}
+
 .alert{
     display: none;
+}
+body{
+    background-color: rgb(185, 185, 169)
 }

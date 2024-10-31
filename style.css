@@ -89,8 +89,6 @@ label{
     color:  black;
     box-shadow: 2px 2px 5px
     rgba(0,0,0,0.2) ;
-    background-color:;
-    
 }
 
 .alert{
@@ -98,4 +96,14 @@ label{
 }
 body{
     background-color: rgb(185, 185, 169)
+}
+footer{
+    text-align: center;
+      padding: 10px;
+      background-color: rgb(167, 167, 203);
+      color: black;
+      font-size: 0.9em;
+      position: fixed;
+      bottom: 0;
+      width: 100%;
 }
